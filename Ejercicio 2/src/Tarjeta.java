@@ -58,6 +58,8 @@ public abstract class Tarjeta {
 
     public abstract boolean checkearAutorizacion(double importe);
 
+    public abstract void procesarPago(double importe, int numero);
+
     public boolean fechaValida() {
         boolean respuesta = false;
 
@@ -75,7 +77,7 @@ public abstract class Tarjeta {
         return respuesta;
     }
 
-    public abstract void procesarPago(double importe, int numero);
+
 
 
 }
