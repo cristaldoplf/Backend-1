@@ -14,7 +14,7 @@ public abstract class Menu {
     }
 
     public abstract double calcularPrecio();
-    public abstract void informarArmadoPedido();
+    public abstract String informarArmadoPedido();
 
 
 }

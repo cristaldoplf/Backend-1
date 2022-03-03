@@ -12,7 +12,7 @@ public class Infantil extends Menu{
     }
 
     @Override
-    public void informarArmadoPedido() {
-        System.out.println("Armar menu Infantil");
+    public String informarArmadoPedido() {
+        return "Armar menu Infantil";
     }
 }

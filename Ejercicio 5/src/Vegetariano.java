@@ -12,7 +12,7 @@ public class Vegetariano extends Menu{
     public double calcularPrecio() {
         double precio = getPrecioBase();
         if (especias){
-            precio+= precio*1.01;
+            precio= precio*1.01;
         }
 
         if (cantSalsa>0){
@@ -23,7 +23,7 @@ public class Vegetariano extends Menu{
     }
 
     @Override
-    public void informarArmadoPedido() {
-        System.out.println("Armar menu vegetariano");
+    public String informarArmadoPedido() {
+        return "Armar menu Vegetariano";
     }
 }

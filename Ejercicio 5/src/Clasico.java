@@ -10,7 +10,7 @@ public class Clasico extends Menu{
     }
 
     @Override
-    public void informarArmadoPedido() {
-        System.out.println("Armar menu Clasico");
+    public String informarArmadoPedido() {
+        return "Armar menu Clasico";
     }
 }
