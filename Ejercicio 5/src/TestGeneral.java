@@ -2,12 +2,19 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+// @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class TestGeneral {
 
-    Infantil infantil = new Infantil(5, 2);
-    Vegetariano vegetariano = new Vegetariano(5, true, 2);
-    Clasico clasico = new Clasico(5);
+    private static Infantil infantil;
+    private static Vegetariano vegetariano;
+    private static Clasico clasico;
+
+    @BeforeAll
+    public static void creacionObjetos(){
+    infantil = new Infantil(5, 2);
+    vegetariano = new Vegetariano(5, true, 2);
+    clasico = new Clasico(5);
+    }
 
     @org.junit.jupiter.api.Test
     public void informarPedido() {
@@ -20,6 +27,6 @@ class TestGeneral {
     public void calcularPrecio(){
         assertEquals(11,infantil.calcularPrecio());
         assertEquals(9.05,vegetariano.calcularPrecio());
-        assertEquals(5,clasico.calcularPrecio());
+        assertEquals(11,infantil.calcularPrecio());
     }
 }
