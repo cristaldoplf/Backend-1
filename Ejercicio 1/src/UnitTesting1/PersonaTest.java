@@ -13,7 +13,7 @@ class PersonaTest {
         Persona persona2 = new Persona("Leonardo","Gimenez",15);
 
         assertEquals(persona1.mostrarNombre(),"Pablo, Cristaldo.");
-        // assertEquals(persona1.mostrarNombre(),"Pablo, Sarasa.");
+        // assertEquals(persona1.mostrarNombre(),"Pablo, asfdsdfsdf.");
 
         assertTrue(persona1.esMayor());
         assertFalse(persona2.esMayor());
