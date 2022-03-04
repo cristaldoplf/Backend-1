@@ -11,29 +11,34 @@ public abstract class Empleado {
         this.numeroCuenta = numeroCuenta;
     }
 
-    public void liquidarSueldo() {
+    public String liquidarSueldo() {
         double sueldoTotal = calcularSueldo();
+        String respuesta = "Error";
         if (sueldoTotal < 0.1) {
             try {
-                throw new Exception("Error, al intentar calcular la liquidacion, el sueldo no puede ser 0 o menor.");
+                throw new Exception("Error, al intentar calcular la liquidación, el sueldo no puede ser 0 o menor.");
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
             String recibo = generarRecibo(sueldoTotal);
-            depositarImporte(sueldoTotal, recibo);
+            respuesta = depositarImporte(sueldoTotal, recibo);
         }
-
+        return respuesta;
     }
 
     public abstract double calcularSueldo();
 
     public abstract String generarRecibo(double monto);
 
-    public void depositarImporte(double monto, String recibo) {
+    public String depositarImporte(double monto, String recibo) {
+        String respuesta = "Error";
         if (monto > 0) {
-            System.out.println("La liquidacion generada es un documento " + recibo + ". Saldo a liquidar: " + monto + ".");
+            respuesta = "La liquidación generada es un documento " + recibo + ". Saldo a liquidar: " + monto;
+            System.out.println(respuesta);
+
         }
+        return respuesta;
     }
 
     public String getNombre() {
@@ -61,4 +66,4 @@ public abstract class Empleado {
     }
 }
 
-//“La liquidación generada es un documento impreso. Saldo a liquidar: 840”.
+
