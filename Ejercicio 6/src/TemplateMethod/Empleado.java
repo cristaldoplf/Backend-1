@@ -1,4 +1,5 @@
 package TemplateMethod;
 
-public class Empleado {
+public abstract class Empleado {
+    private nombre
 }
