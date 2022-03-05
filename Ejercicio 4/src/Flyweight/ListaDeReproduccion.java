@@ -31,4 +31,13 @@ public class ListaDeReproduccion {
     public void setLista(List<Cancion> lista) {
         this.lista = lista;
     }
+
+    public void mostrarLista(){
+        System.out.println("Lista de reproduccion: ");
+        int numero = 1;
+        for (Cancion cancion:lista) {
+            System.out.println(numero+"- "+cancion.getNombre());
+            numero++;
+        }
+    }
 }

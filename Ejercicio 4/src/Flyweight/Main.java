@@ -17,6 +17,8 @@ public class Main {
         System.out.println(listaDeCanciones.getLista().get(1).getNombre());
         System.out.println(listaDeCanciones.getLista().get(2).getNombre());
         System.out.println(listaDeCanciones.getLista().get(3).getNombre());
+        System.out.println("");
 
+        listaDeCanciones.mostrarLista();
     }
 }
