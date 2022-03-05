@@ -16,7 +16,7 @@ public class Main {
         //creo el proxy y el gestor
         GestorDocumentos gestor = new GestorDocumentos();
         ProxyGestor proxy = new ProxyGestor(gestor);
-        gestor.addDocumento(documento1);
+        proxy.addDocumento(documento1);
         gestor.addDocumento(documento2);
 
         //accedo al contenido por medio del proxy
