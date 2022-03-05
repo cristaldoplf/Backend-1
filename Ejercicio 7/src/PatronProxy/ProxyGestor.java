@@ -17,7 +17,7 @@ public class ProxyGestor extends GoogleDrive {
     @Override
     public String entregarDoc(String id, String url, String nombre, String email) {
 
-        String respuesta = "";
+        String respuesta = "El documento se esta procesando para ser enviado";
 
         for (Documento doc : documentos) {
 
