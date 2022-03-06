@@ -23,7 +23,7 @@ public class Main {
         cajero.procesarExtraccion(1,"asd",800);
         System.out.println("");
         cajero.procesarExtraccion(5,"asd",800);
-        
+
 
     }
 }
