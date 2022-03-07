@@ -10,3 +10,4 @@
 - 6- Patron Template Method
 - 7- Patron Proxy
 - 8- Patron Facade
+- 9- Patron Chain of Responsability
