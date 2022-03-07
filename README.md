@@ -1,4 +1,4 @@
-# Backend-1 Java - Patrones de diseño - SpringBoost - Hibernate
+# Backend-1 Java - SpringBoot - Hibernate - Patrones de diseño.
 ## Ejercicios de Backend 1
 
 ### Indice
