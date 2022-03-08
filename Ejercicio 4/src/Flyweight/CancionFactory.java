@@ -11,7 +11,7 @@ public class CancionFactory {
         cancionBuscada = canciones.get(nombre);
         if (cancionBuscada == null) {
             cancionBuscada = new Cancion(nombre, artista, genero);
-            canciones.put(nombre, cancionBuscada);
+            canciones.put("key:"+nombre+":"+artista+":"+genero, cancionBuscada);
             System.out.println("Se creo la cancion " + nombre + " para agregarla a la lista");
         }
         System.out.println("Se agrego la cancion " + nombre + " a la lista");
