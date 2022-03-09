@@ -1,4 +1,5 @@
-import org.apache.log4j.BasicConfigurator;
+package log4j;
+
 import org.apache.log4j.Logger;
 
 public class TestLog {
