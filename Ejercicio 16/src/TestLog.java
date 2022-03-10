@@ -8,11 +8,11 @@ import java.util.Date;
 public class TestLog {
     public static void main(String[] args) throws Exception {
 
-        Empleado empleado1 = new Empleado(1, "pablo", 33, "DH", LocalDate.of(2021, 11, 17));
+        Empleado empleado1 = new Empleado(1, "sarasa", 55, "empresaY", LocalDate.of(2021, 11, 17));
 
         Class.forName("org.h2.Driver").newInstance();
         Connection con = DriverManager.getConnection("jdbc:h2:" +
-                "./Database/my", "root", "myPassword");
+                "~/test", "sa", "");
         Statement stmt = con.createStatement();
 
         //Código para crear una tabla. Elimina la tabla si esta ya existe y la
