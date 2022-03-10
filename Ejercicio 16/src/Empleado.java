@@ -6,9 +6,9 @@ public class Empleado {
     private String nombre;
     private int edad;
     private String empresa;
-    private Date fechaComienzo;
+    private LocalDate fechaComienzo;
 
-    public Empleado(int id, String nombre, int edad, String empresa, Date fechaComienzo) {
+    public Empleado(int id, String nombre, int edad, String empresa, LocalDate fechaComienzo) {
         this.id = id;
         this.nombre = nombre;
         this.edad = edad;
@@ -48,11 +48,11 @@ public class Empleado {
         this.empresa = empresa;
     }
 
-    public Date getFechaComienzo() {
+    public LocalDate getFechaComienzo() {
         return fechaComienzo;
     }
 
-    public void setFechaComienzo(Date fechaComienzo) {
+    public void setFechaComienzo(LocalDate fechaComienzo) {
         this.fechaComienzo = fechaComienzo;
     }
 }

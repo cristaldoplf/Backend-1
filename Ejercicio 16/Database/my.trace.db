@@ -25,3 +25,8 @@ select * from TEST [42102-210]
 2022-03-10 04:10:43 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "pablo"
 Data conversion error converting "pablo" [22018-210]
+2022-03-10 04:33:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO EMPLEADO VALUES(1,'pablo',33,'DH,'[*]2021-11-17);\000a"; se esperaba "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO EMPLEADO VALUES(1,'pablo',33,'DH,'[*]2021-11-17);\000a"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO EMPLEADO VALUES(1,'pablo',33,'DH,'2021-11-17);
+ [42001-210]
