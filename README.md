@@ -11,3 +11,14 @@
 - 7- Patron Proxy
 - 8- Patron Facade
 - 9- Patron Chain of Responsability
+- 10- Patron Flyweight
+- 11- libreria log4j
+- 12- 
+- 13- 
+- 14- 
+- 15- 
+- 16- 
+- 17- 
+- 18- 
+- 19-
+- 20-

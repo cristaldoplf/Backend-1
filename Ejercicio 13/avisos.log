@@ -1,14 +1,11 @@
-2022-03-09 22:40:28 ERROR Main:12 - El leon no puede tener un valor de edad negativo
-  2022-03-09 22:41:49 ERROR Main:12 - El leon no puede tener un valor de edad negativo
-  2022-03-09 22:42:43 INFO  Main:21 - El Tigre Tiger esta corriendo
-  2022-03-09 22:42:43 INFO  Main:21 - El Tigre Sherkhan esta corriendo
-  2022-03-09 22:45:18 INFO  Main:15 - Los Tigres corren.
-  2022-03-09 22:45:18 INFO  Main:21 - El Tigre Tiger esta corriendo
-  2022-03-09 22:45:18 INFO  Main:21 - El Tigre Sherkhan esta corriendo
-  2022-03-09 22:45:18 INFO  Main:18 - Los leones corren
-  2022-03-09 22:45:18 INFO  Main:24 - El leon Leono esta corriendo
-  2022-03-09 22:45:18 INFO  Main:24 - El leon Simba esta corriendo
-  2022-03-09 22:45:18 INFO  Main:21 - ¿Los Leones son viejos alfa?
-  2022-03-09 22:45:18 INFO  Main:29 - El leon Leono esta viejo y es alfa.
-  2022-03-09 22:45:18 INFO  Main:31 - El leon Simba es joven, no es alfa, o ambas condiciones a la vez.
+2022-03-09 23:42:09 INFO  Main:47 - El promedio de la lista es: 4.5
+  2022-03-09 23:42:09 INFO  Main:34 - El numero con mayor valor de la lista es: 9
+  2022-03-09 23:42:09 INFO  Main:27 - El numero con menor valor de la lista es: 1
+  2022-03-09 23:45:33 INFO  Main:47 - El promedio de la lista es: 4.5
+  2022-03-09 23:45:33 INFO  Main:34 - El numero con mayor valor de la lista es: 9
+  2022-03-09 23:45:33 INFO  Main:27 - El numero con menor valor de la lista es: 1
+  2022-03-09 23:46:23 INFO  Main:47 - El promedio de la lista es: 4.5
+  2022-03-09 23:46:23 INFO  Main:34 - El numero con mayor valor de la lista es: 9
+  2022-03-09 23:46:23 INFO  Main:27 - El numero con menor valor de la lista es: 1
+  2022-03-09 23:46:23 ERROR Main:55 - El Array esta vacio.
   
