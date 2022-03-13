@@ -13,12 +13,12 @@
 - 9- Patron Chain of Responsability
 - 10- Patron Flyweight
 - 11- libreria log4j
-- 12- 
-- 13- 
-- 14- 
-- 15- 
-- 16- 
-- 17- 
-- 18- 
-- 19-
+- 12- libreria log4j
+- 13- libreria log4j
+- 14- DB H2 y framework JDBC
+- 15- DB H2 y framework JDBC
+- 16- DB H2 y framework JDBC
+- 17- Consultas y transacciones DB
+- 18- Consultas y transacciones DB
+- 19- Patron DAO (Data Access Object)
 - 20-
