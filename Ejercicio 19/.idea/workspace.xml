@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/../Ejercicio 21/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/daos/EstudianteDAOH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/daos/IDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/entidades/Estudiante.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/servicios/EstudianteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -47,5 +46,16 @@
       <updated>1647212252903</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
