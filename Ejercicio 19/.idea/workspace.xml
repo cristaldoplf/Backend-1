@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1e9018-5810-4585-986f-45dc01ad8bcd" name="Changes" comment="" />
+    <list default="true" id="8a1e9018-5810-4585-986f-45dc01ad8bcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/daos/EstudianteDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/daos/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/entidades/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 21/src/com/company/servicios/EstudianteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 21/Ejercicio 21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 21/Ejercicio 21.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
