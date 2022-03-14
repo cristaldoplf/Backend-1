@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1e9018-5810-4585-986f-45dc01ad8bcd" name="Changes" comment="" />
+    <list default="true" id="8a1e9018-5810-4585-986f-45dc01ad8bcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/Ejercicio 20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/CajaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/Corriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/EstrategiaCajaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/EstrategiaCuentaCorriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/EstrategiaExtraccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Composicion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Herencia/CajaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Herencia/Corriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Herencia/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 20/src/Herencia/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academia/src/test/com/dh/academia/service/EstudianteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/academia/src/test/com/dh/academia/service/EstudianteServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +34,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/academia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Librerias y cosas programacion/h2/bin/h2-2.1.210.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

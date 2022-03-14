@@ -7,7 +7,7 @@ import main.com.dh.academia.model.Estudiante;
 import main.com.dh.academia.service.EstudianteService;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 
