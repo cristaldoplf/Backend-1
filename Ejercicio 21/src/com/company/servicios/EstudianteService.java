@@ -18,8 +18,7 @@ public class EstudianteService {
 
     //Delegamos las 4 responsabilidades al DAO
     public Estudiante guardarEstudiante(Estudiante e) {
-        estudianteIDao.guardar(e);
-        return null;
+        return estudianteIDao.guardar(e);
     }
 
     public void eliminarEstudiante(Long id) {
