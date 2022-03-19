@@ -25,9 +25,9 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
 
             // 2 crear una sentencia
             preparedStatement = connection.prepareStatement("INSERT INTO estudiantes VALUES (?,?,?)");
-            preparedStatement.setLong(1, estudiante.getId());
-            preparedStatement.setString(2, estudiante.getNombre());
-            preparedStatement.setString(3, estudiante.getApellido());
+            preparedStatement.setLong(1,estudiante.getId());
+            preparedStatement.setString(2,estudiante.getNombre());
+            preparedStatement.setString(3,estudiante.getApellido());
 
             //3 ejecutamos la sentencia
             preparedStatement.executeUpdate();
@@ -56,7 +56,7 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
 
             // 2 crear una sentencia
             preparedStatement = connection.prepareStatement("DELETE FROM estudiantes where id=?");
-            preparedStatement.setLong(1, id);
+            preparedStatement.setLong(1,id);
 
             //3 ejecutamos la sentencia
             preparedStatement.executeUpdate();
@@ -82,13 +82,13 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
 
             // 2 crear una sentencia
             preparedStatement = connection.prepareStatement("SELECT * FROM estudiantes WHERE id =?");
-            preparedStatement.setLong(1, id);
+            preparedStatement.setLong(1,id);
 
             //3 ejecutamos la sentencia
             ResultSet result = preparedStatement.executeQuery();
 
             //4 evaluar los resultados
-            while (result.next()) {
+            while (result.next()){
                 Long idEstudiante = result.getLong("id");
                 String nombre = result.getString("nombre");
                 String apellido = result.getString("apellido");
@@ -107,7 +107,7 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
         }
 
         return estudiante;
-    }
+            }
 
     @Override
     public List<Estudiante> buscarTodos() {
@@ -127,7 +127,7 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
             ResultSet result = preparedStatement.executeQuery();
 
             //4 evaluar los resultados
-            while (result.next()) {
+            while (result.next()){
                 Long idEstudiante = result.getLong("id");
                 String nombre = result.getString("nombre");
                 String apellido = result.getString("apellido");

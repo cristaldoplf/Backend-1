@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b22a7e6d-e87a-433b-8ccf-73bf6a05b3b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Ejercicio 8/src/PatronFacade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 8/src/PatronFacade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 23/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 23/Ejercicio 23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/java/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/java/com/company/daos/EstudianteDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/java/com/company/daos/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/java/com/company/entidades/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/java/com/company/servicios/EstudianteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 24/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/Ejercicio 25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/OdontologoDaoH2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/daos/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/daos/OdontologoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/entidades/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/servicios/OdontologoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/clinicaOdontologica/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 25/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 21/out/production/Ejercicio 21/com/company/servicios/EstudianteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 21/out/production/Ejercicio 21/com/company/servicios/EstudianteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 21/src/com/company/daos/EstudianteDAOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 21/src/com/company/daos/EstudianteDAOH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 5/Ejercicio 5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 5/Ejercicio 5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ejercicio 5" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,5 +53,16 @@
       <updated>1646427421489</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

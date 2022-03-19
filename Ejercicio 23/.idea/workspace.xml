@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91d451d1-a51f-4127-bedd-085ea59f96f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/java/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/java/com/company/daos/EstudianteDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/java/com/company/daos/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/java/com/company/entidades/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/java/com/company/servicios/EstudianteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 24/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/Ejercicio 25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/daos/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/daos/OdontologoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/entidades/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/servicios/OdontologoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio 25/src/clinicaOdontologica/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 21/out/production/Ejercicio 21/com/company/servicios/EstudianteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 21/out/production/Ejercicio 21/com/company/servicios/EstudianteService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26WShNRiSTvkSKjrt08G06WOble" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91d451d1-a51f-4127-bedd-085ea59f96f8" name="Changes" comment="" />
+      <created>1647537967190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647537967190</updated>
+    </task>
+    <servers />
+  </component>
+</project>

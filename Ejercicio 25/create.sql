@@ -1,0 +1,1 @@
+create table IF NOT EXISTS odontologo(ID int primary key,NOMBRE varchar (255),APELLIDO varchar (255),MATRICULA varchar (255));
