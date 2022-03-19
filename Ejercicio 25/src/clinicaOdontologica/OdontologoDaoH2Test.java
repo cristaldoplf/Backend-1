@@ -5,6 +5,7 @@ import clinicaOdontologica.entidades.Odontologo;
 import clinicaOdontologica.servicios.OdontologoService;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
@@ -18,12 +19,12 @@ class OdontologoDaoH2Test {
     private static Odontologo odontologo4;
     private static Odontologo odontologo5;
     private static List<Odontologo> list_odontologo;
-    private static OdontologoDaoH2 odontologoDaoH2 = new OdontologoDaoH2();
-    private static OdontologoService odontologoService = new OdontologoService();
+    private static OdontologoDaoH2 odontologoDaoH2;
+    private static OdontologoService odontologoService;
 
 
     @BeforeAll
-    public static void creacionObjetos(){
+    public static void creacionObjetos() {
         //creamos el servicio para guardar los odontologos y despues pedir la lista.
         odontologoDaoH2 = new OdontologoDaoH2();
         odontologoService = new OdontologoService();
@@ -46,32 +47,39 @@ class OdontologoDaoH2Test {
         list_odontologo.add(odontologo5);
 
 
-
     }
 
     @Test
-    public void testLista(){
+    public void testLista() {
         odontologoService.guardar(odontologo1);
         odontologoService.guardar(odontologo2);
         odontologoService.guardar(odontologo3);
         odontologoService.guardar(odontologo4);
         odontologoService.guardar(odontologo5);
+        List<Odontologo> list_odontologo_consulta = odontologoService.buscarTodos();
+        try {
+            
+            assertEquals(list_odontologo_consulta.size(), list_odontologo.size());
+            int index = 0;
+            for (Odontologo o : list_odontologo_consulta) {
+                assertEquals(o.getId(), list_odontologo.get(index).getId());
+                assertEquals(o.getNombre(), list_odontologo.get(index).getNombre());
+                assertEquals(o.getApellido(), list_odontologo.get(index).getApellido());
+                assertEquals(o.getNumeroMatricula(), list_odontologo.get(index).getNumeroMatricula());
+                index++;
+            }
 
-        assertEquals(odontologoService.buscarTodos().size(),list_odontologo.size());
-        int index = 0;
-        for (Odontologo o:odontologoService.buscarTodos()) {
-            assertEquals(o.getId(),list_odontologo.get(index).getId());
-            assertEquals(o.getNombre(),list_odontologo.get(index).getNombre());
-            assertEquals(o.getApellido(),list_odontologo.get(index).getApellido());
-            assertEquals(o.getNumeroMatricula(),list_odontologo.get(index).getNumeroMatricula());
-            index++;
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            odontologoService.elimarOdontologo(1L);
+            odontologoService.elimarOdontologo(2L);
+            odontologoService.elimarOdontologo(3L);
+            odontologoService.elimarOdontologo(4L);
+            odontologoService.elimarOdontologo(5L);
         }
-        
-        odontologoService.elimarOdontologo(1L);
-        odontologoService.elimarOdontologo(2L);
-        odontologoService.elimarOdontologo(3L);
-        odontologoService.elimarOdontologo(4L);
-        odontologoService.elimarOdontologo(5L);
 
 
     }

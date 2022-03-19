@@ -726,4 +726,695 @@
   2022-03-18 22:21:49 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
   2022-03-18 22:21:49 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
   2022-03-18 22:21:49 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:27:23 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:27:44 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:28:08 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:28:13 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:28:19 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:28:33 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:29:15 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:33:20 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:33:27 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:34:55 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:04 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:35:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:39:00 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 22:39:04 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 22:39:05 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 23:34:06 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:34 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:34 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:34 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:34 - El odontologo con el id 4 fue guardado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:34 - El odontologo con el id 5 fue guardado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:35 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:127 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:148 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:149 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:104 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:66 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:104 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:66 - El odontologo con el id 2 fue eliminado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:104 - El odontologo con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:66 - El odontologo con el id 3 fue eliminado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:104 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:66 - El odontologo con el id 4 fue eliminado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:56 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:104 - El odontologo con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:105 - Se cierra la conexion a la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:66 - El odontologo con el id 5 fue eliminado en la base de datos
+  2022-03-18 23:34:09 INFO  OdontologoDaoH2:67 - Se cierra la conexion a la base de datos en el metodo Eliminar
   
