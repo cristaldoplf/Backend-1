@@ -16,14 +16,12 @@ public class Paciente {
     private Long ondotologoId;
     private Long domicilioId;//No crear un paciente sin domicilio, en el crud de guardar Paciente primero guardamos el domicilio para conseguir el id automatico.
 
-    public Paciente(String apellido, String nombre, String email, int dni, Date fechaIngreso, Odontologo odontologo, Domicilio domicilio) {
+    public Paciente(String apellido, String nombre, String email, int dni, Date fechaIngreso) {
         this.apellido = apellido;
         this.nombre = nombre;
         this.email = email;
         this.dni = dni;
         this.fechaIngreso = fechaIngreso;
-        this.odontologo = odontologo;
-        this.domicilio = domicilio;
     }
 
     public Long getOndotologoId() {

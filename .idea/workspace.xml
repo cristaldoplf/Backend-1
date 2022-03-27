@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b22a7e6d-e87a-433b-8ccf-73bf6a05b3b8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/OdontologoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/OdontologoDaoH2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/PacienteDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/PacienteDaoH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/TurnoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/daos/TurnoDaoH2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/domain/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/domain/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/domain/Turno.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 33/clinica/src/main/java/com/example/clinica/domain/Turno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
