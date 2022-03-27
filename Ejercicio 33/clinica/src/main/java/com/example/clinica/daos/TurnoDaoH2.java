@@ -1,6 +1,10 @@
 package com.example.clinica.daos;
 
+import com.example.clinica.domain.Odontologo;
+import com.example.clinica.domain.Paciente;
 import com.example.clinica.domain.Turno;
+import com.example.clinica.services.DomicilioService;
+import com.example.clinica.services.PacienteService;
 import com.example.clinica.util.Util;
 import org.apache.log4j.Logger;
 

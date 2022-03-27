@@ -11,6 +11,10 @@ public class Paciente {
     private Date fechaIngreso;
     private Odontologo odontologo;
     private Domicilio domicilio;
+    //para setear el id de odontologo hace falta que este guardado en la base de datos, por que se crea de forma autoincremental.
+    //puede ser innecesario ya que en la clase turno guardo referencia de quien es el turno tanto Odontologo como Paciente.
+    private Long ondotologoId;
+    private Long domicilioId;//No crear un paciente sin domicilio, en el crud de guardar Paciente primero guardamos el domicilio para conseguir el id automatico.
 
     public Paciente(String apellido, String nombre, String email, int dni, Date fechaIngreso, Odontologo odontologo, Domicilio domicilio) {
         this.apellido = apellido;
@@ -20,6 +24,22 @@ public class Paciente {
         this.fechaIngreso = fechaIngreso;
         this.odontologo = odontologo;
         this.domicilio = domicilio;
+    }
+
+    public Long getOndotologoId() {
+        return ondotologoId;
+    }
+
+    public void setOndotologoId(Long ondotologoId) {
+        this.ondotologoId = ondotologoId;
+    }
+
+    public Long getDomicilioId() {
+        return domicilioId;
+    }
+
+    public void setDomicilioId(Long domicilioId) {
+        this.domicilioId = domicilioId;
     }
 
     public Long getId() {

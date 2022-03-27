@@ -7,6 +7,11 @@ public class Turno {
     private Date fecha;
     private Odontologo odontologo;
     private Paciente paciente;
+    //tanto el id de odontologo y paciente son requeridos para guardarlos en la base de datos como referencia
+    //antes de guardar el turno en la base de datos, setear estos id con el metodo set.
+    //no los pongo en el constructor por que los ids tanto de odontologo como paciente son
+    //generados automaticamente por la base de datos y quiza los cree en java pero aun no los guarde en la base de datos al
+    //momento de poner las referencias en un objeto instanciado de la clase turno.
     private Long odontologoId;
     private Long pacienteId;
 

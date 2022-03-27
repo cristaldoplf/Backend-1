@@ -57,7 +57,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
             logger.info("Se crea una conexion a la base de datos en el metodo Eliminar");
-            // Odontologo odontologoParaEliminar = buscar(id);
+            Odontologo odontologoParaEliminar = buscar(id);
 
             preparedStatement = connection.prepareStatement("DELETE FROM ODONTOLOGO where id=?");
             preparedStatement.setLong(1, id);
