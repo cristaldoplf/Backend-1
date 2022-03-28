@@ -14,6 +14,16 @@ public class Odontologo {
         this.matricula = matricula;
     }
 
+    @Override
+    public String toString() {
+        return "Odontologo{" +
+                "id=" + id +
+                ", apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", matricula='" + matricula + '\'' +
+                '}';
+    }
+
     public Long getId() {
         return id;
     }

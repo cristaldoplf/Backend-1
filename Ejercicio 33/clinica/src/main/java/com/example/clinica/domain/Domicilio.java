@@ -14,6 +14,17 @@ public class Domicilio {
         this.provincia = provincia;
     }
 
+    @Override
+    public String toString() {
+        return "Domicilio{" +
+                "id=" + id +
+                ", calle='" + calle + '\'' +
+                ", numero='" + numero + '\'' +
+                ", localidad='" + localidad + '\'' +
+                ", provincia='" + provincia + '\'' +
+                '}';
+    }
+
     public Long getId() {
         return id;
     }

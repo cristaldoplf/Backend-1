@@ -22,6 +22,17 @@ public class Turno {
         this.paciente = paciente;
     }
 
+    @Override
+    public String toString() {
+        return "Turno{" +
+                "id=" + id +
+                ", fecha=" + fecha +
+                ", odontologo=" + odontologo +
+                ", paciente=" + paciente +
+                ", odontologoId=" + odontologoId +
+                ", pacienteId=" + pacienteId +
+                '}';
+    }
 
     public Long getOdontologoId() {
         return odontologoId;

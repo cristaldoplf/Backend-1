@@ -13,6 +13,7 @@ public class Paciente {
     private Domicilio domicilio;
     //para setear el id de odontologo hace falta que este guardado en la base de datos, por que se crea de forma autoincremental.
     //puede ser innecesario ya que en la clase turno guardo referencia de quien es el turno tanto Odontologo como Paciente.
+    //Y no podemos indexarlo como hacemos con el id de domicilio en el H2, ya que aunque guarde la referencia, odontologo y paciente son independientes.
     private Long ondotologoId;
     private Long domicilioId;//No crear un paciente sin domicilio, en el crud de guardar Paciente primero guardamos el domicilio para conseguir el id automatico.
 
@@ -22,6 +23,22 @@ public class Paciente {
         this.email = email;
         this.dni = dni;
         this.fechaIngreso = fechaIngreso;
+    }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "id=" + id +
+                ", apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", email='" + email + '\'' +
+                ", dni=" + dni +
+                ", fechaIngreso=" + fechaIngreso +
+                ", odontologo=" + odontologo +
+                ", domicilio=" + domicilio +
+                ", ondotologoId=" + ondotologoId +
+                ", domicilioId=" + domicilioId +
+                '}';
     }
 
     public Long getOndotologoId() {
