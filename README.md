@@ -21,4 +21,17 @@
 - 17- Consultas y transacciones DB
 - 18- Consultas y transacciones DB
 - 19- Patron DAO (Data Access Object)
-- 20-
+- 21- Patron DAO
+- 22- Patron DAO
+- 23- Patron DAO
+- 24- Maven
+- 25- DAO - Log4j - Junit
+- 26- --
+- 27- DAO
+- 28- Serializacion de objetos y E/S Archivos
+- 29- Serializacion de objetos y E/S Archivos
+- 30- Spring
+- 31- MVC
+- 32- MVC
+- 33- MVC - dao - log4j - junit
+- 34- MVC - mapping 
