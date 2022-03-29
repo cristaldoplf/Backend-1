@@ -10,7 +10,7 @@ import java.util.List;
 public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final Logger logger = Logger.getLogger(OdontologoDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
+    private final static String DB_URL = "jdbc:h2:~/test;";
     private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "";
 

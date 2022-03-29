@@ -1,0 +1,117 @@
+2022-03-29 04:09:48 INFO  PacienteDaoH2:119 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-29 04:09:48 INFO  DomicilioDaoH2:90 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-29 04:09:48 INFO  DomicilioDaoH2:106 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-29 04:09:48 INFO  DomicilioDaoH2:107 - Se cierra la conexion a la base de datos
+  2022-03-29 04:09:48 INFO  PacienteDaoH2:140 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-29 04:09:48 INFO  PacienteDaoH2:141 - Se cierra la conexion a la base de datos
+  2022-03-29 04:11:20 INFO  PacienteDaoH2:119 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-29 04:11:20 INFO  DomicilioDaoH2:90 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-03-29 04:11:20 INFO  DomicilioDaoH2:106 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-29 04:11:20 INFO  DomicilioDaoH2:107 - Se cierra la conexion a la base de datos
+  2022-03-29 04:11:20 INFO  PacienteDaoH2:140 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-03-29 04:11:20 INFO  PacienteDaoH2:141 - Se cierra la conexion a la base de datos
+  2022-03-29 04:29:02 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:29:02 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:29:07 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:29:07 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:30:25 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:30:25 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:30:25 INFO  DomicilioDaoH2:41 - El domicilio con el id 4 fue guardado en la base de datos
+  2022-03-29 04:30:25 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:17 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:17 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:17 INFO  DomicilioDaoH2:41 - El domicilio con el id 5 fue guardado en la base de datos
+  2022-03-29 04:31:17 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:49 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:49 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:31:49 INFO  DomicilioDaoH2:41 - El domicilio con el id 6 fue guardado en la base de datos
+  2022-03-29 04:31:49 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:32:03 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:32:03 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:32:03 INFO  DomicilioDaoH2:41 - El domicilio con el id 7 fue guardado en la base de datos
+  2022-03-29 04:32:03 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:34:43 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:34:43 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:34:43 INFO  DomicilioDaoH2:41 - El domicilio con el id 8 fue guardado en la base de datos
+  2022-03-29 04:34:43 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:10 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:10 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:10 INFO  DomicilioDaoH2:41 - El domicilio con el id 9 fue guardado en la base de datos
+  2022-03-29 04:35:10 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:16 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:16 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:35:16 INFO  DomicilioDaoH2:41 - El domicilio con el id 10 fue guardado en la base de datos
+  2022-03-29 04:35:16 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:02 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:02 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:02 INFO  DomicilioDaoH2:41 - El domicilio con el id 40 fue guardado en la base de datos
+  2022-03-29 04:36:02 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:02 INFO  PacienteDaoH2:53 - El paciente con el id 4 fue guardado en la base de datos
+  2022-03-29 04:36:02 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:10 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:10 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:10 INFO  DomicilioDaoH2:41 - El domicilio con el id 41 fue guardado en la base de datos
+  2022-03-29 04:36:10 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:10 INFO  PacienteDaoH2:53 - El paciente con el id 5 fue guardado en la base de datos
+  2022-03-29 04:36:10 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:13 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:13 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:13 INFO  DomicilioDaoH2:41 - El domicilio con el id 42 fue guardado en la base de datos
+  2022-03-29 04:36:13 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:13 INFO  PacienteDaoH2:53 - El paciente con el id 6 fue guardado en la base de datos
+  2022-03-29 04:36:13 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:14 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:14 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:14 INFO  DomicilioDaoH2:41 - El domicilio con el id 43 fue guardado en la base de datos
+  2022-03-29 04:36:14 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:14 INFO  PacienteDaoH2:53 - El paciente con el id 7 fue guardado en la base de datos
+  2022-03-29 04:36:14 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:41 - El domicilio con el id 44 fue guardado en la base de datos
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:53 - El paciente con el id 8 fue guardado en la base de datos
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:41 - El domicilio con el id 45 fue guardado en la base de datos
+  2022-03-29 04:36:15 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:53 - El paciente con el id 9 fue guardado en la base de datos
+  2022-03-29 04:36:15 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:16 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:16 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:16 INFO  DomicilioDaoH2:41 - El domicilio con el id 46 fue guardado en la base de datos
+  2022-03-29 04:36:16 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:16 INFO  PacienteDaoH2:53 - El paciente con el id 10 fue guardado en la base de datos
+  2022-03-29 04:36:16 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:41 - El domicilio con el id 47 fue guardado en la base de datos
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:53 - El paciente con el id 11 fue guardado en la base de datos
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:41 - El domicilio con el id 48 fue guardado en la base de datos
+  2022-03-29 04:36:17 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:53 - El paciente con el id 12 fue guardado en la base de datos
+  2022-03-29 04:36:17 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:18 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:18 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:18 INFO  DomicilioDaoH2:41 - El domicilio con el id 49 fue guardado en la base de datos
+  2022-03-29 04:36:18 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:18 INFO  PacienteDaoH2:53 - El paciente con el id 13 fue guardado en la base de datos
+  2022-03-29 04:36:18 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:41 - El domicilio con el id 50 fue guardado en la base de datos
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:53 - El paciente con el id 14 fue guardado en la base de datos
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:33 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:28 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:41 - El domicilio con el id 51 fue guardado en la base de datos
+  2022-03-29 04:36:19 INFO  DomicilioDaoH2:42 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:53 - El paciente con el id 15 fue guardado en la base de datos
+  2022-03-29 04:36:19 INFO  PacienteDaoH2:54 - Se cierra la conexion a la base de datos en el metodo Guardar
+  

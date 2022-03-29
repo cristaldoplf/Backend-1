@@ -35,7 +35,7 @@ class ClinicaApplicationTests {
 			//creamos un domicilio para cada paciente, el id del domicilio como propiedad del paciente es agregado en el metodo guardar del h2 correspondiente
 			//ya que ese id se genera de forma automatica por la base de datos.
             Domicilio domicilio1 = new Domicilio("Avenida Siempre viva","1234","Springfield","Oregon");
-            Paciente paciente1 = new Paciente("Sarasa","Leonel","Fernandez@gmail.com",11111111,new Date());
+            Paciente paciente1 = new Paciente("Sarasa","Leonel","Fernandez@gmail.com",11111111);
             paciente1.setDomicilio(domicilio1);
             paciente1.setOdontologo(odontologo1);
             paciente1.setOndotologoId(odontologo1.getId());

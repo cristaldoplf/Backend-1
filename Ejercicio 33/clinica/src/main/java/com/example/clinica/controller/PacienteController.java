@@ -5,12 +5,11 @@ import com.example.clinica.domain.Paciente;
 import com.example.clinica.services.PacienteService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.Date;
 
 
 @RestController
@@ -31,8 +30,15 @@ public class PacienteController {
         return "Para buscar un paciente por su id usar la siguiente ruta ||  /paciente/{id}";
     }
 
-    @GetMapping("/paciente/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
+    @GetMapping("/buscar/paciente/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
     public Paciente buscar(@PathVariable Long id) { //marcamos pathvariable para saber que esa sera la variable.
         return pacienteService.buscar(id);
     }
+
+    @PostMapping("/registrar/paciente")
+    public Paciente guardarPaciente(@RequestBody Paciente paciente){
+        return pacienteService.guardar(paciente);
+    }
+
+
 }

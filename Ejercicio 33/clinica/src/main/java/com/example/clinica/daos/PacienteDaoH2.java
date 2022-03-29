@@ -16,7 +16,7 @@ import java.util.List;
 public class PacienteDaoH2 implements IDao<Paciente> {
     private static final Logger logger = Logger.getLogger(PacienteDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
+    private final static String DB_URL = "jdbc:h2:~/test;";
     private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "";
 
@@ -38,13 +38,12 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             domicilio = domicilioService.guardar(paciente.getDomicilio()); // al guardar el domicilio nos devuelve el mismo con su id ya seteado.
             paciente.setDomicilioId(domicilio.getId()); //y guardamos el id antes de ingresar el domicilio a la base de datos.
 
-            preparedStatement = connection.prepareStatement("INSERT INTO paciente(apellido,nombre,email,dni,fechaIngreso,domicilioId) VALUES (?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
+            preparedStatement = connection.prepareStatement("INSERT INTO paciente(apellido,nombre,email,dni,domicilioId) VALUES (?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, paciente.getApellido());
             preparedStatement.setString(2, paciente.getNombre());
             preparedStatement.setString(3, paciente.getEmail());
             preparedStatement.setInt(4, paciente.getDni());
-            preparedStatement.setDate(5, Util.utilDateToSqlDate(paciente.getFechaIngreso()));
-            preparedStatement.setLong(6, paciente.getDomicilioId());
+            preparedStatement.setLong(5, paciente.getDomicilioId());
 
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
@@ -128,10 +127,9 @@ public class PacienteDaoH2 implements IDao<Paciente> {
                 String nombre = result.getString("nombre");
                 String email = result.getString("email");
                 int dni = result.getInt("dni");
-                Date fechaIngreso = result.getDate("fechaIngreso");
                 Long domicilioId = result.getLong("domicilioId");
 
-                paciente = new Paciente(apellido,nombre,email,dni,fechaIngreso);
+                paciente = new Paciente(apellido,nombre,email,dni);
                 paciente.setId(idPaciente);
                 paciente.setDomicilioId(domicilioId);
                 paciente.setDomicilio(domicilioService.buscarDomicilio(paciente.getDomicilioId()));
@@ -175,10 +173,9 @@ public class PacienteDaoH2 implements IDao<Paciente> {
                 String nombre = result.getString("nombre");
                 String email = result.getString("email");
                 int dni = result.getInt("dni");
-                Date fechaIngreso = result.getDate("fechaIngreso");
                 Long domicilioId = result.getLong("domicilioId");
 
-                paciente = new Paciente(apellido,nombre,email,dni,fechaIngreso);
+                paciente = new Paciente(apellido,nombre,email,dni);
                 paciente.setId(idPaciente);
                 paciente.setDomicilioId(domicilioId);
                 paciente.setDomicilio(domicilioService.buscarDomicilio(paciente.getDomicilioId()));
