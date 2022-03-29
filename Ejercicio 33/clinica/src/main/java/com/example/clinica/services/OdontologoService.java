@@ -8,6 +8,10 @@ import java.util.List;
 public class OdontologoService {
     private IDao<Odontologo> odontologoIdao;
 
+    public OdontologoService(IDao<Odontologo> odontologoIdao) {
+        this.odontologoIdao = odontologoIdao;
+    }
+
     public IDao<Odontologo> getOdontologoIdao() {
         return odontologoIdao;
     }

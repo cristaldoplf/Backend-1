@@ -9,6 +9,10 @@ import java.util.List;
 public class TurnoService {
     private IDao<Turno> turnoIdao;
 
+    public TurnoService(IDao<Turno> turnoIdao) {
+        this.turnoIdao = turnoIdao;
+    }
+
     public IDao<Turno> getTurnoIdao() {
         return turnoIdao;
     }

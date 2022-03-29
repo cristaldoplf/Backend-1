@@ -1,11 +1,18 @@
 package com.example.clinica.controller;
 
+import com.example.clinica.daos.PacienteDaoH2;
+import com.example.clinica.domain.Paciente;
+import com.example.clinica.services.PacienteService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import java.time.LocalDate;
+import java.time.Period;
+
+
 @RestController
 public class PacienteController {
 
@@ -16,8 +23,16 @@ public class PacienteController {
 //        return "index";
 //    }
 
+    PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
+
+
     @GetMapping("/")
-    public String testMostrar2() {;
-        return "Hola Mundo";
+    public String testMostrar2() {
+        return "Para buscar un paciente por su id usar la siguiente ruta ||  /paciente/{id}";
+    }
+
+    @GetMapping("/paciente/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
+    public Paciente buscar(@PathVariable Long id) { //marcamos pathvariable para saber que esa sera la variable.
+        return pacienteService.buscar(id);
     }
 }

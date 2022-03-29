@@ -10,6 +10,10 @@ import java.util.List;
 public class DomicilioService {
     private IDao<Domicilio> domicilioIdao;
 
+    public DomicilioService(IDao<Domicilio> domicilioIdao) {
+        this.domicilioIdao = domicilioIdao;
+    }
+
     public IDao<Domicilio> getDomicilioIdao() {
         return domicilioIdao;
     }

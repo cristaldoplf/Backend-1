@@ -27,8 +27,6 @@ public class Turno {
         return "Turno{" +
                 "id=" + id +
                 ", fecha=" + fecha +
-                ", odontologo=" + odontologo +
-                ", paciente=" + paciente +
                 ", odontologoId=" + odontologoId +
                 ", pacienteId=" + pacienteId +
                 '}';

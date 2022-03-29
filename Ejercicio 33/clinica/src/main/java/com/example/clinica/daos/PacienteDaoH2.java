@@ -16,7 +16,7 @@ import java.util.List;
 public class PacienteDaoH2 implements IDao<Paciente> {
     private static final Logger logger = Logger.getLogger(PacienteDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:~/test";
+    private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
     private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "";
 
@@ -33,9 +33,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             logger.info("Se crea una conexion a la base de datos en el metodo Guardar");
 
             //creo los servicios para primero ingresar en la base de datos el domicilio y luego guardar el id para referenciar.
-            DomicilioService domicilioService = new DomicilioService();
-            DomicilioDaoH2 domicilioServiceDaoH2 = new DomicilioDaoH2();
-            domicilioService.setDomicilioIdao(domicilioServiceDaoH2);
+            DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
 
             domicilio = domicilioService.guardar(paciente.getDomicilio()); // al guardar el domicilio nos devuelve el mismo con su id ya seteado.
             paciente.setDomicilioId(domicilio.getId()); //y guardamos el id antes de ingresar el domicilio a la base de datos.
@@ -77,16 +75,12 @@ public class PacienteDaoH2 implements IDao<Paciente> {
         try {
 
             //creo el servicio para buscar el paciente a borrar, extraer el id del Domicilio asociado y borrar el Domicilio junto con le paciente.
-            PacienteService pacienteService = new PacienteService();
-            PacienteDaoH2 pacienteServiceDaoH2 = new PacienteDaoH2();
-            pacienteService.setPacienteIDao(pacienteServiceDaoH2);
+            PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
             paciente = pacienteService.buscar(id);
             idDomicilio = paciente.getDomicilioId();
 
             //creo el servicio de domicilio para borrar el domicilio asociado antes de proceder a borrar al paciente.
-            DomicilioService domicilioService = new DomicilioService();
-            DomicilioDaoH2 domicilioServiceDaoH2 = new DomicilioDaoH2();
-            domicilioService.setDomicilioIdao(domicilioServiceDaoH2);
+            DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
             domicilioService.elimarDomicilio(idDomicilio);
 
             //con el domicilio asociado ya borrado, procedemos a borrar al paciente.
@@ -118,10 +112,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
         try {
             //creo el servicio de domicilio para Buscar el domicilio y luego agregarlo cuando construyo el objeto a devolver.
-            DomicilioService domicilioService = new DomicilioService();
-            DomicilioDaoH2 domicilioServiceDaoH2 = new DomicilioDaoH2();
-            domicilioService.setDomicilioIdao(domicilioServiceDaoH2);
-
+            DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
 
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
@@ -169,9 +160,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
         try {
             //creo el servicio de domicilio para Buscar el domicilio y luego agregarlo cuando construyo el objeto a devolver.
-            DomicilioService domicilioService = new DomicilioService();
-            DomicilioDaoH2 domicilioServiceDaoH2 = new DomicilioDaoH2();
-            domicilioService.setDomicilioIdao(domicilioServiceDaoH2);
+            DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
 
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);

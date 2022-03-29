@@ -17,7 +17,7 @@ import java.util.List;
 public class TurnoDaoH2 implements IDao<Turno> {
     private static final Logger logger = Logger.getLogger(TurnoDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:~/test";
+    private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
     private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "";
 
@@ -33,8 +33,8 @@ public class TurnoDaoH2 implements IDao<Turno> {
 
             preparedStatement = connection.prepareStatement("INSERT INTO TURNO(fecha,odontologoid,pacienteid) VALUES (?,?,?)", Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setDate(1, Util.utilDateToSqlDate(turno.getFecha()));
-            preparedStatement.setLong(2, turno.getOdontologoId());
-            preparedStatement.setLong(3, turno.getPacienteId());
+            preparedStatement.setLong(2, turno.getOdontologo().getId());
+            preparedStatement.setLong(3, turno.getPaciente().getId());
 
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();

@@ -34,9 +34,7 @@ public class Paciente {
                 ", email='" + email + '\'' +
                 ", dni=" + dni +
                 ", fechaIngreso=" + fechaIngreso +
-                ", odontologo=" + odontologo +
-                ", domicilio=" + domicilio +
-                ", ondotologoId=" + ondotologoId +
+                ", domicilio=" + domicilio.getCalle()+" "+domicilio.getNumero() +
                 ", domicilioId=" + domicilioId +
                 '}';
     }
