@@ -1,4 +1,4 @@
-package com.example.clinica.daos;
+package com.example.clinica.repository;
 
 import java.util.List;
 

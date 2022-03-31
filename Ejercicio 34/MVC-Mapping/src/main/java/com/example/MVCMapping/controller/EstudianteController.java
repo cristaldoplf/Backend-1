@@ -3,6 +3,8 @@ package com.example.MVCMapping.controller;
 import com.example.MVCMapping.daos.Imp.EstudianteDAOH2;
 import com.example.MVCMapping.entidades.Estudiante;
 import com.example.MVCMapping.servicios.EstudianteService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -21,6 +23,31 @@ public class EstudianteController {
     @GetMapping("/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
     public Estudiante buscar(@PathVariable int id){ //marcamos pathvariable para saber que esa sera la variable.
         return estudianteService.buscarEstudiante(id);
+    }
+
+    @DeleteMapping("/{id}")//puede ser la misma url que mapping por que es diferente tipo de pedido (delete / get)
+    public ResponseEntity eliminar(@PathVariable Integer id){
+        ResponseEntity response = null;
+
+        if(estudianteService.buscarEstudiante(id) == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            estudianteService.eliminarEstudiante(id);
+            response = new ResponseEntity(HttpStatus.NO_CONTENT);
+        }
+        return response;
+    }
+
+    @PutMapping("/actualizar")
+    public ResponseEntity<Estudiante> actualizar(@RequestBody Estudiante estudiante){
+        ResponseEntity response = null;
+
+        if(estudianteService.buscarEstudiante(estudiante.getId()) == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            response = new ResponseEntity(estudianteService.update(estudiante),HttpStatus.OK);
+        }
+        return response;
     }
 
 }

@@ -11,7 +11,7 @@ import java.util.List;
 public class EstudianteDAOH2 implements IDao<Estudiante> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:~/test";
+    private final static String DB_URL = "jdbc:h2:~/estudiantes";
     private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "";
 
@@ -143,5 +143,35 @@ public class EstudianteDAOH2 implements IDao<Estudiante> {
             e.printStackTrace();
         }
         return list_estudiantes;
+    }
+
+    public Estudiante update(Estudiante estudiante) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+            // 2 crear una sentencia
+            preparedStatement = connection.prepareStatement("UPDATE estudiante SET nombre= ?, apellido= ? where id=?");
+            preparedStatement.setLong(3, estudiante.getId());
+            preparedStatement.setString(1, estudiante.getNombre());
+            preparedStatement.setString(2, estudiante.getApellido());
+
+
+            //3 ejecutamos la sentencia
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return estudiante;
+
+
     }
 }

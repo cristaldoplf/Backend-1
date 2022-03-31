@@ -1,9 +1,8 @@
-package com.example.clinica.services;
+package com.example.clinica.services.imp;
 
 
-import com.example.clinica.daos.IDao;
+import com.example.clinica.repository.IDao;
 import com.example.clinica.domain.Domicilio;
-import com.example.clinica.domain.Turno;
 
 import java.util.List;
 

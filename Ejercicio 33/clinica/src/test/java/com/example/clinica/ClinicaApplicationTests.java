@@ -1,15 +1,15 @@
 package com.example.clinica;
 
-import com.example.clinica.daos.OdontologoDaoH2;
-import com.example.clinica.daos.PacienteDaoH2;
-import com.example.clinica.daos.TurnoDaoH2;
+import com.example.clinica.repository.imp.OdontologoDaoH2;
+import com.example.clinica.repository.imp.PacienteDaoH2;
+import com.example.clinica.repository.imp.TurnoDaoH2;
 import com.example.clinica.domain.Domicilio;
 import com.example.clinica.domain.Odontologo;
 import com.example.clinica.domain.Paciente;
 import com.example.clinica.domain.Turno;
-import com.example.clinica.services.OdontologoService;
-import com.example.clinica.services.PacienteService;
-import com.example.clinica.services.TurnoService;
+import com.example.clinica.services.imp.OdontologoService;
+import com.example.clinica.services.imp.PacienteService;
+import com.example.clinica.services.imp.TurnoService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

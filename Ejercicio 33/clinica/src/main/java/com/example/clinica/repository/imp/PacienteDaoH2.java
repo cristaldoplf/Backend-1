@@ -1,12 +1,10 @@
-package com.example.clinica.daos;
+package com.example.clinica.repository.imp;
 
 import com.example.clinica.domain.Domicilio;
 import com.example.clinica.domain.Paciente;
-import com.example.clinica.domain.Turno;
-import com.example.clinica.services.DomicilioService;
-import com.example.clinica.services.PacienteService;
-import com.example.clinica.services.TurnoService;
-import com.example.clinica.util.Util;
+import com.example.clinica.repository.IDao;
+import com.example.clinica.services.imp.DomicilioService;
+import com.example.clinica.services.imp.PacienteService;
 import org.apache.log4j.Logger;
 
 import java.sql.*;

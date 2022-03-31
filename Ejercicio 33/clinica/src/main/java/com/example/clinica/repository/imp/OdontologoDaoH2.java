@@ -1,6 +1,7 @@
-package com.example.clinica.daos;
+package com.example.clinica.repository.imp;
 
 import com.example.clinica.domain.Odontologo;
+import com.example.clinica.repository.IDao;
 import org.apache.log4j.Logger;
 
 import java.sql.*;

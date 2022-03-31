@@ -1,15 +1,11 @@
 package com.example.clinica.controller;
 
-import com.example.clinica.daos.PacienteDaoH2;
+import com.example.clinica.repository.imp.PacienteDaoH2;
 import com.example.clinica.domain.Paciente;
-import com.example.clinica.services.PacienteService;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import com.example.clinica.services.imp.PacienteService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDate;
-import java.time.Period;
-import java.util.Date;
 
 
 @RestController
@@ -27,18 +23,33 @@ public class PacienteController {
 
     @GetMapping("/")
     public String testMostrar2() {
-        return "Para buscar un paciente por su id usar la siguiente ruta ||  /paciente/{id}";
+        return "Para crear un paciente usar la siguiente ruta: /paciente/registrar \n ||" +
+                " Para buscar un paciente por su id usar la siguiente ruta:  /paciente/buscar/{id} \n || " +
+                " Para eliminar un paciente usar la siguiente ruta: /paciente/eliminar/{id} \n" +
+                " ";
     }
 
-    @GetMapping("/buscar/paciente/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
+    @GetMapping("/paciente/buscar/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
     public Paciente buscar(@PathVariable Long id) { //marcamos pathvariable para saber que esa sera la variable.
         return pacienteService.buscar(id);
     }
 
-    @PostMapping("/registrar/paciente")
+    @PostMapping("/paciente/registrar")
     public Paciente guardarPaciente(@RequestBody Paciente paciente){
         return pacienteService.guardar(paciente);
     }
 
+    @DeleteMapping("/paciente/eliminar/{id}")//puede ser la misma url que mapping por que es diferente tipo de pedido (delete / get)
+    public ResponseEntity eliminar(@PathVariable Long id){
+        ResponseEntity response = null;
+
+        if(pacienteService.buscar(id) == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            pacienteService.elimar(id);
+            response = new ResponseEntity(HttpStatus.NO_CONTENT);
+        }
+        return response;
+    }
 
 }

@@ -11,13 +11,13 @@ class MvcMappingApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Estudiante estudiante = new Estudiante(3,"Pablo","Cristaldo");
+		Estudiante estudiante = new Estudiante(3,"Leonel","Fernandez");
 
 		EstudianteService estudianteService = new EstudianteService(new EstudianteDAOH2());
-		//seteamos una estrategia de persistencia, es decir un DAO.
+		estudianteService.eliminarEstudiante(3);
 
 
-		estudianteService.guardarEstudiante(estudiante);
+//		estudianteService.guardarEstudiante(estudiante);
 
 		
 	}
