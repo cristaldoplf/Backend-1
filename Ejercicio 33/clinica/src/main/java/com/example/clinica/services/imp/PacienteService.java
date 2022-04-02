@@ -11,7 +11,6 @@ public class PacienteService {
     public PacienteService(IDao<Paciente> pacienteIDao) {
         this.pacienteIDao = pacienteIDao;
 
-
     }
 
     public IDao<Paciente> getPacienteIDao() {
@@ -37,4 +36,6 @@ public class PacienteService {
     public List<Paciente> buscarTodos() {
         return pacienteIDao.buscarTodos();
     }
+
+    public Paciente buscarPorMail(String email){return pacienteIDao.buscar(email);}
 }

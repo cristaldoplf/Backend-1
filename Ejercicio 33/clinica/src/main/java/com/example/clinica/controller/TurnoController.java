@@ -12,11 +12,16 @@ public class TurnoController {
     TurnoService turnoService = new TurnoService(new TurnoDaoH2());
 
 
-
     @GetMapping("/turno/buscar/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
     public Turno buscar(@PathVariable Long id) { //marcamos pathvariable para saber que esa sera la variable.
         return turnoService.buscar(id);
     }
+
+    @PutMapping("/turno/actualizar/{id}") //le indicamos que la url va a ser el de la variable que van a ingresar.
+    public Turno actualizar(@RequestBody Turno turno, @PathVariable Long id) { //marcamos pathvariable para saber que esa sera la variable.
+        return turnoService.actualizarTurno(turno,id);
+    }
+
 
     @PostMapping("/turno/registrar")
     public Turno guardarTurno(@RequestBody Turno turno){

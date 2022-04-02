@@ -1,5 +1,8 @@
 package com.example.clinica.domain;
 
+import org.apache.tomcat.jni.Local;
+
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Paciente {
@@ -8,7 +11,7 @@ public class Paciente {
     private String nombre;
     private String email;
     private int dni;
-    private Date fechaIngreso;
+    private LocalDate fechaIngreso;
     private Odontologo odontologo;
     private Domicilio domicilio;
     //para setear el id de odontologo hace falta que este guardado en la base de datos, por que se crea de forma autoincremental.
@@ -17,11 +20,12 @@ public class Paciente {
     private Long ondotologoId;
     private Long domicilioId;//No crear un paciente sin domicilio, en el crud de guardar Paciente primero guardamos el domicilio para conseguir el id automatico.
 
-    public Paciente(String apellido, String nombre, String email, int dni) {
+    public Paciente(String apellido, String nombre, String email, int dni, LocalDate fechaIngreso) {
         this.apellido = apellido;
         this.nombre = nombre;
         this.email = email;
         this.dni = dni;
+        this.fechaIngreso = fechaIngreso;
     }
 
     @Override
@@ -94,11 +98,11 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public Date getFechaIngreso() {
+    public LocalDate getFechaIngreso() {
         return fechaIngreso;
     }
 
-    public void setFechaIngreso(Date fechaIngreso) {
+    public void setFechaIngreso(LocalDate fechaIngreso) {
         this.fechaIngreso = fechaIngreso;
     }
 

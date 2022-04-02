@@ -3,12 +3,16 @@ package com.example.clinica.repository.imp;
 import com.example.clinica.domain.Domicilio;
 import com.example.clinica.domain.Paciente;
 import com.example.clinica.repository.IDao;
+
 import com.example.clinica.services.imp.DomicilioService;
 import com.example.clinica.services.imp.PacienteService;
+import com.example.clinica.util.Util;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class PacienteDaoH2 implements IDao<Paciente> {
@@ -36,12 +40,13 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             domicilio = domicilioService.guardar(paciente.getDomicilio()); // al guardar el domicilio nos devuelve el mismo con su id ya seteado.
             paciente.setDomicilioId(domicilio.getId()); //y guardamos el id antes de ingresar el domicilio a la base de datos.
 
-            preparedStatement = connection.prepareStatement("INSERT INTO paciente(apellido,nombre,email,dni,domicilioId) VALUES (?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
+            preparedStatement = connection.prepareStatement("INSERT INTO paciente(apellido,nombre,email,dni,fechaIngreso,domicilioId) VALUES (?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, paciente.getApellido());
             preparedStatement.setString(2, paciente.getNombre());
             preparedStatement.setString(3, paciente.getEmail());
             preparedStatement.setInt(4, paciente.getDni());
-            preparedStatement.setLong(5, paciente.getDomicilioId());
+            preparedStatement.setDate(5, java.sql.Date.valueOf(paciente.getFechaIngreso()));
+            preparedStatement.setLong(6, paciente.getDomicilioId());
 
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
@@ -75,6 +80,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
             paciente = pacienteService.buscar(id);
             idDomicilio = paciente.getDomicilioId();
+
 
             //creo el servicio de domicilio para borrar el domicilio asociado antes de proceder a borrar al paciente.
             DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
@@ -126,8 +132,9 @@ public class PacienteDaoH2 implements IDao<Paciente> {
                 String email = result.getString("email");
                 int dni = result.getInt("dni");
                 Long domicilioId = result.getLong("domicilioId");
+                LocalDate fechaIngreso = result.getDate("fechaIngreso").toLocalDate();
 
-                paciente = new Paciente(apellido,nombre,email,dni);
+                paciente = new Paciente(apellido,nombre,email,dni,fechaIngreso);
                 paciente.setId(idPaciente);
                 paciente.setDomicilioId(domicilioId);
                 paciente.setDomicilio(domicilioService.buscarDomicilio(paciente.getDomicilioId()));
@@ -172,8 +179,9 @@ public class PacienteDaoH2 implements IDao<Paciente> {
                 String email = result.getString("email");
                 int dni = result.getInt("dni");
                 Long domicilioId = result.getLong("domicilioId");
+                LocalDate fechaIngreso = result.getDate("fechaIngreso").toLocalDate();
 
-                paciente = new Paciente(apellido,nombre,email,dni);
+                paciente = new Paciente(apellido,nombre,email,dni,fechaIngreso);
                 paciente.setId(idPaciente);
                 paciente.setDomicilioId(domicilioId);
                 paciente.setDomicilio(domicilioService.buscarDomicilio(paciente.getDomicilioId()));
@@ -193,4 +201,57 @@ public class PacienteDaoH2 implements IDao<Paciente> {
         }
         return list_paciente;
     }
+
+    @Override
+    public Paciente actualizar(Paciente paciente, Long id) {
+        return null;
+    }
+
+    public Paciente buscar(String email) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        Paciente paciente = null;
+
+        try {
+            //creo el servicio de domicilio para Buscar el domicilio y luego agregarlo cuando construyo el objeto a devolver.
+            DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
+
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            logger.info("Se crea una conexion a la base de datos en el metodo Buscar");
+            preparedStatement = connection.prepareStatement("SELECT * FROM paciente WHERE email =?");
+            preparedStatement.setString(1, email);
+
+            ResultSet result = preparedStatement.executeQuery();
+
+            while (result.next()) {
+                Long idPaciente = result.getLong("id");
+                String apellido = result.getString("apellido");
+                String nombre = result.getString("nombre");
+                String emailToSave = result.getString("email");
+                int dni = result.getInt("dni");
+                Long domicilioId = result.getLong("domicilioId");
+                LocalDate fechaIngreso = result.getDate("fechaIngreso").toLocalDate();
+
+                paciente = new Paciente(apellido,nombre,emailToSave,dni,fechaIngreso);
+                paciente.setId(idPaciente);
+                paciente.setDomicilioId(domicilioId);
+                paciente.setDomicilio(domicilioService.buscarDomicilio(paciente.getDomicilioId()));
+
+            }
+            logger.info("El paciente con el Email " + email + " fue buscado en la base de datos en el metodo Actualizar");
+            logger.info("Se cierra la conexion a la base de datos");
+            preparedStatement.close();
+
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return paciente;
+    }
+
+
 }

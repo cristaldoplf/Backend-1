@@ -24,6 +24,10 @@ public class OdontologoService {
         return odontologoIdao.guardar(o);
     }
 
+    public Odontologo actualizarOdontologo(Odontologo o,Long id) {
+        return odontologoIdao.actualizar(o,id);
+    }
+
     public void elimarOdontologo(Long id) {
         odontologoIdao.eliminar(id);
     }

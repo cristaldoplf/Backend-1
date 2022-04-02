@@ -32,7 +32,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
-            if(rs.next()){
+            if (rs.next()) {
                 odontologo.setId(rs.getLong(1));
             }
             logger.info("El odontologo con el id " + odontologo.getId() + " fue guardado en la base de datos");
@@ -96,7 +96,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 String nombre = result.getString("nombre");
                 String apellido = result.getString("apellido");
                 String matricula = result.getString("matricula");
-                odontologo = new Odontologo(apellido,nombre,matricula);
+                odontologo = new Odontologo(apellido, nombre, matricula);
                 odontologo.setId(idOdontologo);
             }
             logger.info("El odontologo con el id " + id + " fue buscado en la base de datos en el metodo Buscar");
@@ -109,6 +109,47 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        return odontologo;
+    }
+
+    @Override
+    public Odontologo buscar(String email) {
+        return null;
+    }
+
+    @Override
+    public Odontologo actualizar(Odontologo odontologo, Long id) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            logger.info("Se crea una conexion a la base de datos en el metodo Actualizar");
+            /*
+            UPDATE odontologo
+            SET nombre='Pablo, apellido='Leonel', matricula='asdasd'
+            WHERE id='1'
+             */
+            preparedStatement = connection.prepareStatement("UPDATE odontologo SET apellido=?,nombre=?, matricula=? WHERE id=?");
+            preparedStatement.setString(1, odontologo.getApellido());
+            preparedStatement.setString(2, odontologo.getNombre());
+            preparedStatement.setString(3, odontologo.getMatricula());
+            preparedStatement.setLong(4,id);
+
+            preparedStatement.executeUpdate();
+
+            logger.info("El odontologo con el id " + odontologo.getId() + " fue guardado en la base de datos");
+            logger.info("Se cierra la conexion a la base de datos en el metodo Actualizar");
+            preparedStatement.close();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        odontologo.setId(id);
 
         return odontologo;
     }
@@ -132,7 +173,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 String nombre = result.getString("nombre");
                 String apellido = result.getString("apellido");
                 String matricula = result.getString("matricula");
-                Odontologo odontologo = new Odontologo(apellido,nombre,matricula);
+                Odontologo odontologo = new Odontologo(apellido, nombre, matricula);
                 odontologo.setId(idOdontologo);
 
                 list_odontologo.add(odontologo);

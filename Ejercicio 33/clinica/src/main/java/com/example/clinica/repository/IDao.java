@@ -9,5 +9,10 @@ public interface IDao<T> {
 
     public T buscar(Long id);
 
+    public T buscar(String email);
+
     public List<T> buscarTodos();
+
+    public T actualizar(T t, Long id);
+
 }

@@ -4,8 +4,10 @@ import com.example.clinica.domain.Turno;
 import com.example.clinica.repository.IDao;
 import com.example.clinica.util.Util;
 import org.apache.log4j.Logger;
+import org.apache.tomcat.jni.Local;
 
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 import java.util.Date;
@@ -29,9 +31,9 @@ public class TurnoDaoH2 implements IDao<Turno> {
             logger.info("Se crea una conexion a la base de datos en el metodo Guardar");
 
             preparedStatement = connection.prepareStatement("INSERT INTO TURNO(fecha,odontologoid,pacienteid) VALUES (?,?,?)", Statement.RETURN_GENERATED_KEYS);
-            preparedStatement.setDate(1, Util.utilDateToSqlDate(turno.getFecha()));
-            preparedStatement.setLong(2, turno.getOdontologo().getId());
-            preparedStatement.setLong(3, turno.getPaciente().getId());
+            preparedStatement.setDate(1, java.sql.Date.valueOf(turno.getFecha()));
+            preparedStatement.setLong(2, turno.getOdontologoId());
+            preparedStatement.setLong(3, turno.getPacienteId());
 
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
@@ -96,13 +98,13 @@ public class TurnoDaoH2 implements IDao<Turno> {
 
             while (result.next()) {
                 Long idTurno = result.getLong("id");
-                Date fecha = result.getDate("fecha");
+                LocalDate fecha = result.getDate("fecha").toLocalDate();
                 Long idOdontologo = result.getLong("odontologoId");
                 Long idPaciente = result.getLong("pacienteId");
-                turno = new Turno(fecha);
+                turno = new Turno(fecha,idOdontologo,idPaciente);
                 turno.setId(idTurno);
-                turno.setPacienteId(idPaciente);
-                turno.setOdontologoId(idOdontologo);
+//                turno.setPacienteId(idPaciente);
+//                turno.setOdontologoId(idOdontologo);
             }
             logger.info("El Turno con el id " + id + " fue buscado en la base de datos en el metodo Buscar");
             logger.info("Se cierra la conexion a la base de datos");
@@ -115,6 +117,41 @@ public class TurnoDaoH2 implements IDao<Turno> {
             e.printStackTrace();
         }
 
+        return turno;
+    }
+
+    @Override
+    public Turno buscar(String email) {
+        return null;
+    }
+
+    @Override
+    public Turno actualizar(Turno turno, Long id) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            logger.info("Se crea una conexion a la base de datos en el metodo Actualizar");
+
+            preparedStatement = connection.prepareStatement("UPDATE turno SET fecha=? , odontologoId=?, pacienteId=? WHERE id=?");
+            preparedStatement.setDate(1, java.sql.Date.valueOf(turno.getFecha()));
+            preparedStatement.setLong(2, turno.getOdontologoId());
+            preparedStatement.setLong(3, turno.getPacienteId());
+            preparedStatement.setLong(4, id);
+
+            logger.info("El turno con el id " + turno.getId() + " fue actualizado en la base de datos");
+            logger.info("Se cierra la conexion a la base de datos en el metodo Actualizar");
+            preparedStatement.close();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        turno.setId(id);
         return turno;
     }
 
@@ -135,13 +172,13 @@ public class TurnoDaoH2 implements IDao<Turno> {
 
             while (result.next()) {
                 Long idTurno = result.getLong("id");
-                Date fecha = result.getDate("fecha");
+                LocalDate fecha = result.getDate("fecha").toLocalDate();
                 Long idOdontologo = result.getLong("odontologoId");
                 Long idPaciente = result.getLong("pacienteId");
-                turno = new Turno(fecha);
+                turno = new Turno(fecha,idOdontologo,idPaciente);
                 turno.setId(idTurno);
-                turno.setPacienteId(idPaciente);
-                turno.setOdontologoId(idOdontologo);
+//                turno.setPacienteId(idPaciente);
+//                turno.setOdontologoId(idOdontologo);
 
                 list_turno.add(turno);
             }

@@ -117,6 +117,16 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
     }
 
     @Override
+    public Domicilio buscar(String email) {
+        return null;
+    }
+
+    @Override
+    public Domicilio actualizar(Domicilio domicilio, Long id) {
+        return null;
+    }
+
+    @Override
     public List<Domicilio> buscarTodos() {
         Connection connection = null;
         PreparedStatement preparedStatement = null;

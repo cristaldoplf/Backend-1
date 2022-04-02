@@ -219,4 +219,382 @@
   2022-03-31 10:38:41 INFO  OdontologoDaoH2:87 - Se crea una conexion a la base de datos en el metodo Buscar
   2022-03-31 10:38:41 INFO  OdontologoDaoH2:101 - El odontologo con el id 2 fue buscado en la base de datos en el metodo Buscar
   2022-03-31 10:38:41 INFO  OdontologoDaoH2:102 - Se cierra la conexion a la base de datos
+  2022-04-02 08:57:02 INFO  TurnoDaoH2:25 - Se crea una conexion a la base de para generar las tablas
+  2022-04-02 08:57:02 INFO  TurnoDaoH2:26 - Se cierra la conexion a la base de datos para la creacion de tablas
+  2022-04-02 09:10:57 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 09:13:41 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 09:14:17 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:17 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:17 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:26 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:14:26 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 09:14:26 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:14:29 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:29 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:29 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:33 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:33 INFO  OdontologoDaoH2:102 - El odontologo con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:33 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:39 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:39 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:39 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:40 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:40 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:40 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:60 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:67 - El odontologo con el id 1 fue eliminado en la base de datos
+  2022-04-02 09:14:46 INFO  OdontologoDaoH2:68 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:14:49 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:49 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:49 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 09:14:52 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:14:52 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:14:52 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:01 INFO  PacienteDaoH2:31 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:15:01 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:15:01 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 09:15:01 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:15:01 INFO  PacienteDaoH2:51 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 09:15:01 INFO  PacienteDaoH2:52 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:15:05 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:05 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:05 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:05 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:05 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:05 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:62 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:68 - El domicilio con el id 1 fue eliminado en la base de datos
+  2022-04-02 09:15:10 INFO  DomicilioDaoH2:69 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:87 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:93 - El paciente con el id 1 fue eliminado en la base de datos
+  2022-04-02 09:15:10 INFO  PacienteDaoH2:94 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-04-02 09:15:12 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:12 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:12 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:15:14 INFO  PacienteDaoH2:117 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:15:14 INFO  PacienteDaoH2:137 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:15:14 INFO  PacienteDaoH2:138 - Se cierra la conexion a la base de datos
+  2022-04-02 09:20:09 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 09:22:21 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 09:31:06 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 09:31:41 INFO  PacienteDaoH2:34 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:31:41 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:31:41 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 09:31:41 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:31:41 INFO  PacienteDaoH2:55 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 09:31:41 INFO  PacienteDaoH2:56 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 09:31:47 INFO  PacienteDaoH2:121 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:31:47 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 09:31:47 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:31:47 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 09:31:47 INFO  PacienteDaoH2:142 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 09:31:47 INFO  PacienteDaoH2:143 - Se cierra la conexion a la base de datos
+  2022-04-02 10:04:56 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:12:51 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:13:40 INFO  OdontologoDaoH2:125 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-04-02 10:13:40 INFO  OdontologoDaoH2:140 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-04-02 10:13:40 INFO  OdontologoDaoH2:141 - Se cierra la conexion a la base de datos
+  2022-04-02 10:13:45 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:45 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 10:13:45 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:46 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:46 INFO  OdontologoDaoH2:38 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-04-02 10:13:46 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:47 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:47 INFO  OdontologoDaoH2:38 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-04-02 10:13:47 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 10:13:50 INFO  OdontologoDaoH2:125 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-04-02 10:13:50 INFO  OdontologoDaoH2:140 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-04-02 10:13:50 INFO  OdontologoDaoH2:141 - Se cierra la conexion a la base de datos
+  2022-04-02 10:16:34 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:18:10 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:18:24 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:19:45 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:20:22 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:20:33 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:53:52 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 10:54:44 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 11:22:30 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 11:22:44 INFO  PacienteDaoH2:34 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:22:44 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:22:44 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 11:22:44 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:22:44 INFO  PacienteDaoH2:55 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 11:22:44 INFO  PacienteDaoH2:56 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:25:08 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 11:25:13 INFO  PacienteDaoH2:34 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:25:13 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:25:13 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 11:25:13 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:25:13 INFO  PacienteDaoH2:55 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 11:25:13 INFO  PacienteDaoH2:56 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:25:16 INFO  PacienteDaoH2:121 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:25:16 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:25:16 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:25:16 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 11:25:16 INFO  PacienteDaoH2:142 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:25:16 INFO  PacienteDaoH2:143 - Se cierra la conexion a la base de datos
+  2022-04-02 11:25:57 INFO  PacienteDaoH2:216 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:25:57 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:25:57 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:25:57 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 11:25:57 INFO  PacienteDaoH2:237 - El paciente con el Email test@test.com fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:25:57 INFO  PacienteDaoH2:238 - Se cierra la conexion a la base de datos
+  2022-04-02 11:54:08 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 11:54:14 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:54:14 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:54:14 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 11:54:14 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:54:14 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 11:54:14 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 11:54:17 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:54:17 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:54:17 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:54:17 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 11:54:17 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:54:17 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 11:54:20 INFO  PacienteDaoH2:217 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:54:20 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 11:54:20 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:54:20 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 11:54:20 INFO  PacienteDaoH2:238 - El paciente con el Email test@test.com fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 11:54:20 INFO  PacienteDaoH2:239 - Se cierra la conexion a la base de datos
+  2022-04-02 12:04:40 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:04:48 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:04:48 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 12:04:48 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:38 - El odontologo con el id 2 fue guardado en la base de datos
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:38 - El odontologo con el id 3 fue guardado en la base de datos
+  2022-04-02 12:04:49 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:13:24 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:13:35 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:14:51 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:14:55 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 12:14:55 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 12:14:55 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 12:15:00 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:15:00 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 12:15:00 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:15:02 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 12:15:02 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 12:15:02 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 12:15:06 INFO  OdontologoDaoH2:166 - Se crea una conexion a la base de datos en el metodo buscarTodos
+  2022-04-02 12:15:06 INFO  OdontologoDaoH2:181 - Fue requerida la lista de odontologos a la base de datos buscarTodos
+  2022-04-02 12:15:06 INFO  OdontologoDaoH2:182 - Se cierra la conexion a la base de datos
+  2022-04-02 12:15:36 INFO  OdontologoDaoH2:129 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:17:58 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:18:06 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 12:18:06 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 12:18:06 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 12:18:27 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:18:27 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 12:18:27 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:18:30 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 12:18:30 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 12:18:30 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 12:18:46 INFO  OdontologoDaoH2:129 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:18:46 INFO  OdontologoDaoH2:143 - El odontologo con el id null fue guardado en la base de datos
+  2022-04-02 12:18:46 INFO  OdontologoDaoH2:144 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:20:01 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 12:20:11 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:20:11 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 12:20:11 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:20:15 INFO  OdontologoDaoH2:129 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:20:15 INFO  OdontologoDaoH2:143 - El odontologo con el id null fue guardado en la base de datos
+  2022-04-02 12:20:15 INFO  OdontologoDaoH2:144 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 12:20:27 INFO  OdontologoDaoH2:88 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 12:20:27 INFO  OdontologoDaoH2:102 - El odontologo con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 12:20:27 INFO  OdontologoDaoH2:103 - Se cierra la conexion a la base de datos
+  2022-04-02 12:57:40 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:05:55 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:13:06 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:19:50 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:22:47 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:25:09 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:31:34 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:31:53 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:31:53 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:31:53 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 13:31:53 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:31:53 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 13:31:53 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:32:05 INFO  TurnoDaoH2:31 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:39:14 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:39:19 INFO  TurnoDaoH2:31 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:44:05 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:55:06 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:57:38 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:58:02 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 13:58:41 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:58:41 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:58:41 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 13:58:41 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:58:41 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 13:58:41 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 13:58:45 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 13:58:45 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 13:58:45 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 13:58:45 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 13:58:45 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 13:58:45 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:03:44 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:07:57 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:09:22 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:22 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:22 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 14:09:22 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:22 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 14:09:22 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:24 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:24 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:24 INFO  DomicilioDaoH2:40 - El domicilio con el id 2 fue guardado en la base de datos
+  2022-04-02 14:09:24 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:09:24 INFO  PacienteDaoH2:56 - El paciente con el id 2 fue guardado en la base de datos
+  2022-04-02 14:09:24 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:13:41 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:14:20 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:15:30 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:15:30 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:15:30 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 14:15:30 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:15:30 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 14:15:30 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:15:33 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:15:33 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:15:33 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:15:33 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:15:33 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:15:33 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:15:36 INFO  OdontologoDaoH2:26 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:15:36 INFO  OdontologoDaoH2:38 - El odontologo con el id 1 fue guardado en la base de datos
+  2022-04-02 14:15:36 INFO  OdontologoDaoH2:39 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:27:45 INFO  TurnoDaoH2:23 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:37:32 INFO  TurnoDaoH2:24 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:37:39 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:39 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:39 INFO  DomicilioDaoH2:40 - El domicilio con el id 1 fue guardado en la base de datos
+  2022-04-02 14:37:39 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:39 INFO  PacienteDaoH2:56 - El paciente con el id 1 fue guardado en la base de datos
+  2022-04-02 14:37:39 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:45 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:45 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:45 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:45 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:45 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:45 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:46 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:46 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:46 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:46 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:46 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:46 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:40 - El domicilio con el id 2 fue guardado en la base de datos
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:56 - El paciente con el id 2 fue guardado en la base de datos
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:40 - El domicilio con el id 3 fue guardado en la base de datos
+  2022-04-02 14:37:50 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:56 - El paciente con el id 3 fue guardado en la base de datos
+  2022-04-02 14:37:50 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:40 - El domicilio con el id 4 fue guardado en la base de datos
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:56 - El paciente con el id 4 fue guardado en la base de datos
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:35 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:27 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:40 - El domicilio con el id 5 fue guardado en la base de datos
+  2022-04-02 14:37:51 INFO  DomicilioDaoH2:41 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:56 - El paciente con el id 5 fue guardado en la base de datos
+  2022-04-02 14:37:51 INFO  PacienteDaoH2:57 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:37:54 INFO  PacienteDaoH2:221 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:105 - El domicilio con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:105 - El domicilio con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:105 - El domicilio con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:105 - El domicilio con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:54 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:54 INFO  PacienteDaoH2:242 - El paciente con el Email test@test.com fue buscado en la base de datos en el metodo Actualizar
+  2022-04-02 14:37:54 INFO  PacienteDaoH2:243 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  PacienteDaoH2:221 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:105 - El domicilio con el id 2 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:105 - El domicilio con el id 3 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:105 - El domicilio con el id 4 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:105 - El domicilio con el id 5 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:37:59 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:37:59 INFO  PacienteDaoH2:242 - El paciente con el Email test@test.com fue buscado en la base de datos en el metodo Actualizar
+  2022-04-02 14:37:59 INFO  PacienteDaoH2:243 - Se cierra la conexion a la base de datos
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:89 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:105 - El domicilio con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:106 - Se cierra la conexion a la base de datos
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:62 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:68 - El domicilio con el id 1 fue eliminado en la base de datos
+  2022-04-02 14:38:02 INFO  DomicilioDaoH2:69 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:92 - Se crea una conexion a la base de datos en el metodo Eliminar
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:98 - El paciente con el id 1 fue eliminado en la base de datos
+  2022-04-02 14:38:02 INFO  PacienteDaoH2:99 - Se cierra la conexion a la base de datos en el metodo Eliminar
+  2022-04-02 14:38:04 INFO  PacienteDaoH2:122 - Se crea una conexion a la base de datos en el metodo Buscar
+  2022-04-02 14:38:04 INFO  PacienteDaoH2:143 - El paciente con el id 1 fue buscado en la base de datos en el metodo Buscar
+  2022-04-02 14:38:04 INFO  PacienteDaoH2:144 - Se cierra la conexion a la base de datos
+  2022-04-02 14:41:40 INFO  TurnoDaoH2:24 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:42:11 INFO  TurnoDaoH2:24 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:42:20 INFO  TurnoDaoH2:31 - Se crea una conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:42:20 INFO  TurnoDaoH2:43 - El turno con el id 1 fue guardado en la base de datos
+  2022-04-02 14:42:20 INFO  TurnoDaoH2:44 - Se cierra la conexion a la base de datos en el metodo Guardar
+  2022-04-02 14:59:08 INFO  TurnoDaoH2:24 - Se crea una conexion a la base de para generar las tablas y luego se cierra.
+  2022-04-02 14:59:24 INFO  TurnoDaoH2:31 - Se crea una conexion a la base de datos en el metodo Guardar
   

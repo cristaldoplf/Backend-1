@@ -1,25 +1,31 @@
 package com.example.clinica.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Turno {
     private Long id;
-    private Date fecha;
+    private LocalDate fecha;
     private Odontologo odontologo;
     private Paciente paciente;
-    //tanto el id de odontologo y paciente son requeridos para guardarlos en la base de datos como referencia
-    //antes de guardar el turno en la base de datos, setear estos id con el metodo set.
-    //no los pongo en el constructor por que los ids tanto de odontologo como paciente son
-    //generados automaticamente por la base de datos y quiza los cree en java pero aun no los guarde en la base de datos al
-    //momento de poner las referencias en un objeto instanciado de la clase turno.
     private Long odontologoId;
     private Long pacienteId;
 
+    /*
+    @JsonIgnoreProperties(value = { "intValue" })
+    @JsonIgnore
+    */
 
-    public Turno( Date fecha) {
+    public Turno() {
+    }
+
+    public Turno(LocalDate fecha, Long odontologoId, Long pacienteId) {
         this.fecha = fecha;
-        this.odontologo = odontologo;
-        this.paciente = paciente;
+        this.odontologoId = odontologoId;
+        this.pacienteId = pacienteId;
     }
 
     @Override
@@ -72,11 +78,11 @@ public class Turno {
         this.id = id;
     }
 
-    public Date getFecha() {
+    public LocalDate getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 

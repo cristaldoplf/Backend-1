@@ -1,6 +1,7 @@
 package com.example.clinica.services.imp;
 
 
+import com.example.clinica.domain.Odontologo;
 import com.example.clinica.repository.IDao;
 import com.example.clinica.domain.Turno;
 
@@ -35,5 +36,9 @@ public class TurnoService {
 
     public List<Turno> buscarTodos() {
         return turnoIdao.buscarTodos();
+    }
+
+    public Turno actualizarTurno(Turno o, Long id) {
+        return turnoIdao.actualizar(o,id);
     }
 }

@@ -7,6 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 public class OdontologoController {
     OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
@@ -23,6 +26,11 @@ public class OdontologoController {
         return odontologoService.guardar(odontologo);
     }
 
+    @PutMapping("/odontologo/actualizar/{id}")
+    public Odontologo actualizarOdontologo(@RequestBody Odontologo odontologo, @PathVariable Long id){
+        return odontologoService.actualizarOdontologo(odontologo,id);
+    }
+
     @DeleteMapping("/odontologo/eliminar/{id}")//puede ser la misma url que mapping por que es diferente tipo de pedido (delete / get)
     public ResponseEntity eliminar(@PathVariable Long id){
         ResponseEntity response = null;
@@ -35,4 +43,11 @@ public class OdontologoController {
         }
         return response;
     }
+
+    @GetMapping("/odontologos") //le indicamos que la url va a ser el de la variable que van a ingresar.
+    public List<Odontologo> buscarTodos() { //marcamos pathvariable para saber que esa sera la variable.
+        return odontologoService.buscarTodos();
+    }
+
+
 }
